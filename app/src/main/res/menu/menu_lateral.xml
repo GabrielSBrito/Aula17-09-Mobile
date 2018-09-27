@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_disciplinas"
+        android:icon="@drawable/ic_disciplina_black"
+        android:title="Disciplinas" android:checked="true"/> <!-- Ser a tela principal -->
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_forum_black"
+            android:title="Forum"/>
+
+        <item android:id="@+id/nav_mensagens"
+            android:icon="@drawable/ic_chat_black"
+            android:title="Mensagens"/>
+
+        <item android:id="@+id/nav_localizacao"
+            android:icon="@drawable/ic_local_black"
+            android:title="Lozalizacao"/>
+
+        <item android:id="@+id/nav_configuracoes"
+            android:icon="@drawable/ic_configuracoes_black"
+            android:title="Configuracoes"/>
+
+
+        <!-- Criem mais 4 Elementos de menu:
+        Fórum
+        Mensagens
+        Localização
+        Configurações
+         -->
+    </group>
+</menu>
